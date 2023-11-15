@@ -1,0 +1,37 @@
+.watchlist {
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+    max-height: 410px;
+    background: white;
+    border-radius: 20px;
+}
+
+.watchlist__headingContainer {
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    color: #333;
+}
+
+.watchlist__tableContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.watchlist__column_1 {  
+    flex-grow: 0.6;
+}
+
+.watchlist__column_1, .watchlist__column_2, .watchlist__column_3 {
+    font-weight: 500;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.watchlist__columnHeading {
+    color: #bbb;
+    font-size: 15px;
+}

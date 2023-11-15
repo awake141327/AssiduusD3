@@ -1,0 +1,55 @@
+.cashflow {
+    width: 730px;
+    max-height: 410px;
+    background: white;
+    border-radius: 20px;
+}
+
+.cashflow__topContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+
+.cashflow__heading {
+    color: #333;
+}
+
+.cashflow__inoutContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.cashflow__box_1 {
+    width: 20px;
+    height: 20px;
+    background: rgb(8, 153, 117);
+    border-radius: 7px;
+}
+
+.cashflow__box_2 {
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 128, 0, 0.671);
+    border-radius: 7px;
+}
+
+.cashflow__bottomContainer {
+    padding: 20px;
+}
+
+.cashflow__stackedChart_container {
+    height: 280px;
+    width: 100%;
+    overflow: visible;
+}
+
+.x-axis-3 {
+    stroke-width: 0;
+    font-size: 14px;
+    color: #888;
+    font-weight: 500;
+}

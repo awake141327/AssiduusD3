@@ -1,0 +1,51 @@
+.checkingAcc {
+    width: 730px;
+    max-height: 410px;
+    background: white;
+    border-radius: 20px;
+}
+
+.checkingAcc__topContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+
+.checkingAcc__heading {
+    font-size: 20px;
+    color: #333;
+}
+
+.checkingAcc__selectors {
+    display: flex;
+    gap: 20px;
+}
+
+.checkingAcc__selector {
+    cursor: pointer;
+    width: 120px;
+    padding: 9px 5px; 
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    color: #444;
+    font-weight: 500;
+}
+
+.checkingAcc__bottomContainer {
+    padding: 20px;
+}
+
+.checkingAcc__lineChart_container {
+    height: 280px;
+    width: 100%;
+    overflow: visible;
+}
+
+.x-axis-1 {
+    stroke-width: 0;
+    font-size: 14px;
+    color: #888;
+    font-weight: 500;
+}
